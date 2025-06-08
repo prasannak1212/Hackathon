@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizCraft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Article input component -->
+        <form id="article-input">
+            <textarea id="article-text" placeholder="Paste or upload your article text"></textarea>
+            <button type="submit">Generate Quiz!</button>
+        </form>
+
+        <!-- Quiz/notes display component -->
+        <div id="quiz-notes-display"></div>
+
+        <!-- Export button -->
+        <button id="export-btn" disabled>Export to PDF</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
